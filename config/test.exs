@@ -12,6 +12,13 @@ config :nothing, Nothing.Repo,
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 
+  if System.get_env("GITHUB_ACTIONS") do
+    config :nothing, Nothing.Repo,
+      username: "postgres",
+      password: "postgres",
+      database: "nothing_test"
+  end
+
 # We don't run a server during test. If one is required,
 # you can enable the server option below.
 config :nothing, NothingWeb.Endpoint,
