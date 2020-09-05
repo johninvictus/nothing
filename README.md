@@ -1,5 +1,5 @@
 # Nothing
-![Nothing Elixir CI](https://github.com/johninvictus/nothing.git/workflows/Nothing%20Elixir%20CI/badge.svg)
+![Nothing Elixir CI](https://github.com/johninvictus/nothing/workflows/.github/workflows/test.yml/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/johninvictus/nothing/badge.svg?branch=master)](https://coveralls.io/github/johninvictus/nothing?branch=master)
 
 To start your Phoenix server:
